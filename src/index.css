@@ -1,3 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600;700;800;900&family=Nunito:ital,wght@0,300;0,400;1,300;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,100;1,200;1,300;1,600&family=Roboto:ital,wght@1,700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+input:focus,
+textarea,
+select:focus {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+/* basic classes from tailwind */
+
+.flex-colo{
+    @apply flex flex-col justify-center items-center;
+}
+.flex-rows{
+    @apply flex flex-row justify-center items-center;
+}
+.flex-btn{
+    @apply flex  justify-between items-center;
+}
+
+.transition{
+    @apply transition duration-300 ease-in
+}
