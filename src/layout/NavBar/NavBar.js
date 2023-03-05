@@ -1,8 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../images/logo.png";
-import { FaSearch } from "react-icons/fa";
+import { FaSearch ,FaHeart} from "react-icons/fa";
+import { CgUser} from "react-icons/cg";
 const NavBar = () => {
+const hover="hover:text-submain transitions text-white";
+    const Hover=({isActive})=>(isActive ?"text-submain" :hover)
   return (
     <>
       <div className="bg-main shadow-md top-0 sticky z-20 ">
@@ -34,7 +37,26 @@ const NavBar = () => {
             </form>
           </div>
           {/* menus */}
-          
+          <div className="col-span-3 font-medium text-sm hidden xl-gap-14 2xl:gap-20 justify-between lg:flex xl:justify-end items-center  ">
+            <NavLink to="/movies" className={Hover}>
+                Movies
+            </NavLink>
+            <NavLink to="/about-us" className={Hover}>
+                About Us
+            </NavLink>
+            <NavLink to="/contact-us" className={Hover}>
+                Contact Us
+            </NavLink>
+            <NavLink to="/login" className={Hover}>
+                <CgUser className="w-8 h-8" />
+            </NavLink>
+            <NavLink to="/favorite" className={`${Hover} relative`}>
+                <FaHeart className="w-5 h-6"/>
+                <div className="w-5 h-5 flex-colo rounded-full text-xs bg-submain text-white absolute -top-5  -right-1">
+                    3
+                </div>
+            </NavLink>
+          </div>
         </div>
       </div>
     </>
