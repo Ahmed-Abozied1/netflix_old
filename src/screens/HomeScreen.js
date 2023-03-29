@@ -12,7 +12,7 @@ const HomeScreen = () => {
       <Banner/>
       <PopularMovies/>
       <Promos/>
-      <TopRated/>
+      {/* <TopRated/> */}
       </div>
     </Layout>
   );

@@ -15,7 +15,7 @@ const Promos = () => {
             Android, or Windows 10 device and watch without an internet
             connection
           </p>
-          <div className="flex gap-4 md:text-lg text-sm">
+          <div className="flex gap-4  mb-4 md:text-lg text-sm">
             <div className="flex-colo bg-black text-submain px-6 py-3 rounded font-bold">
               HD 4k
             </div>
@@ -24,7 +24,7 @@ const Promos = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div >
           <img
             src="/images/netflix-mobile.jpg"
             alt="Mobile app"
