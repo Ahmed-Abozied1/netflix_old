@@ -1,8 +1,14 @@
 import React from 'react'
-
+import Head from '../components/Head'
+import Layout from "./../layout/Layout"
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <Layout>
+<div className='min-h-screen container mx-auto px-2 my-2'>
+
+  <Head/>
+</div>
+    </Layout>
   )
 }
 
