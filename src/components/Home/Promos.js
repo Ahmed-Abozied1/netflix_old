@@ -24,7 +24,7 @@ const Promos = () => {
             </div>
           </div>
         </div>
-        <div >
+        <div>
           <img
             src="/images/netflix-mobile.jpg"
             alt="Mobile app"

@@ -9,7 +9,7 @@ export const Movies = [
     year: "2022",
     time: "2.5hr",
     vedio: "",
-    rate: 3.4,
+    rate: 1.4,
     reviews: 23,
   },
 
@@ -23,7 +23,7 @@ export const Movies = [
     year: "2022",
     time: "2hr",
     vedio: "",
-    rate: 4.4,
+    rate: 3.4,
     reviews: 13,
   },
   {
@@ -49,7 +49,7 @@ export const Movies = [
     year: "2023",
     time: "3hr",
     vedio: "",
-    rate: 4.2,
+    rate: .7,
     reviews: 19,
   },
   {

@@ -17,7 +17,7 @@ const Banner = () => {
         modules={[Autoplay]}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
       >
-        {Movies.slice(0, 6).map((movie, index) => (
+      {Movies.slice(0, 6).map((movie, index) => (
           <SwiperSlide key={index} className="relative rounded overflow-hidden">
             <img
               src={`/images/Movies/${movie.image}`}
