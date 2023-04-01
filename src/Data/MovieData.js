@@ -2,7 +2,7 @@ export const Movies = [
   {
     name: "Army of The Dead ",
     desc: "Following a zombie outbreak in Las Vegas, a group of mercenaries take the ultimate gamble, venturing into the quarantine zone to pull off the greatest heist ever attempted",
-    titleImage: "",
+    titleImage: "1.jpeg",
     image: "army-of-the-dead.png",
     category: "Western",
     langhage: "English",
@@ -16,7 +16,7 @@ export const Movies = [
   {
     name: "Jungle Cruise ",
     desc: "It tells the alternate history of the captain of a small riverboat who takes a scientist and her brother through a jungle in search of the Tree of Life while competing against a German expedition, and cursed conquistadors.",
-    titleImage: "",
+    titleImage: "2.jpg",
     image: "Jungle Cruise.jpg",
     category: "Action",
     langhage: "English",
@@ -29,7 +29,7 @@ export const Movies = [
   {
     name: "Below her mouth ",
     desc: "Below Her Mouth is a 2016 Canadian erotic romantic drama film directed by April Mullen and written by Stephanie Fabrizi. The film stars Natalie Krill as Jasmine and Erika Linder as Dallas, two women in Toronto who meet and begin a passionate love affair.",
-    titleImage: "",
+    titleImage: "3.jpg",
     image: "Below her mouth.jpg",
     category: "Romantic",
     langhage: "English",
@@ -42,7 +42,7 @@ export const Movies = [
   {
     name: "Magic Mikes Last ",
     desc: "Plot. Former male stripper Mike Lane, who lost his furniture business during the COVID-19 pandemic, is now in his 40s, still in Miami and a bartender for a catering company. At Maxandra Max Mendoza's fundraising event, Mike is recognized by Kim, a lawyer for Max's foundation. ",
-    titleImage: "",
+    titleImage: "4.jpg",
     image: "Jungle Cruise.jpg",
     category: "Drama",
     langhage: "English",
@@ -55,7 +55,7 @@ export const Movies = [
   {
     name: "Carnifex 2022 ",
     desc: "Bailey (The Royals' Alexandra Park) an aspiring documentary maker joins conservationists Grace (Vampire Academy's Sisi Stringer) and Ben (Hacksaw Ridge's Harry Greenwood) as they travel deep into the Australian outback to track and record the animals left displaced and devastated by the fires.",
-    titleImage: "",
+    titleImage: "1.jpeg",
     image: "Carnifex 2022.png",
     category: "Horror",
     langhage: "English",
@@ -68,7 +68,7 @@ export const Movies = [
   {
     name: "A Man of Action 2022 ",
     desc: "In this drama inspired by the life of Lucio Urtubia, an anarchist targets one of the world's biggest banks with an ingenious counterfeiting operations.",
-    titleImage: "",
+    titleImage: "2.jpg",
     image: "A Man of Action 2022.png",
     category: "Historical",
     langhage: "English",
@@ -81,7 +81,7 @@ export const Movies = [
   {
     name: "Call Me Chihiro 2023 ",
     desc: "Based on a manga, the movie follows the life of Chihiro, a former sex worker who is now working at a bento shop in a small seaside town. The story of the film meanders along with Chihiro, exploring the town's different residents and making connections. Call Me Chihiro is a gorgeous study in slice-of-life filmmaking. ",
-    titleImage: "",
+    titleImage: "3.jpg",
     image: "Call Me Chihiro 2023.png",
     category: "Drama",
     langhage: "China",
@@ -94,7 +94,7 @@ export const Movies = [
   {
     name: "All the Places 2023",
     desc: "An estranged brother and sister reunite at their father's funeral and make a spur of the moment decision to fulfill their childhood dream of driving across Mexico on their old motorbikes. ",
-    titleImage: "",
+    titleImage: "4.jpg",
     image: "All the Places 2023.png",
     category: "Comedy",
     langhage: "English",
@@ -107,7 +107,7 @@ export const Movies = [
   {
     name: "Jung_E 2023",
     desc: "Set in the 22nd century, climate change has caused the planet to become uninhabitable and humans live within a man-made shelter. A war takes place within the shelter. Jung Yi is the elite leader of the allied forces. She becomes the subject of a brain cloning experiment. ",
-    titleImage: "",
+    titleImage: "1.jpeg",
     image: "Jung_E 2023.jpg",
     category: "Action",
     langhage: "China",
