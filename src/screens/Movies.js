@@ -1,9 +1,16 @@
 import React from 'react'
+import Layout from '../layout/Layout'
+import Filters from '../components/Filters'
 
-const Movies = () => {
+const MoviesPage = () => {
   return (
-    <div>Movies</div>
+    <Layout>
+    <div className='min-h-screen container mx-auto px-2 my-2'>
+    <Filters/>
+      
+    </div>
+        </Layout>
   )
 }
 
-export default Movies
+export default MoviesPage

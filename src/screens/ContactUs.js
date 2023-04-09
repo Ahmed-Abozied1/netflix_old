@@ -25,7 +25,7 @@ const ContactUs = () => {
       title: "Location ",
       icon: FiMapPin,
 
-      info: "  Egypt , Mansoura,",
+      info: "  Egypt , Mansoura",
       contact:""
     },
   ];
@@ -33,7 +33,7 @@ const ContactUs = () => {
     <Layout>
       <div className="min-h-screen container mx-auto px-2 my-2">
         <Head title="Contact Us" />
-        <div className="grid md:grid-cols-2 gap-6 lg:mt-20 mt-10 lg:grid-cols-3 xl:gap-8 ">
+        <div className="grid md:grid-cols-2 gap-6 lg:my-20  my-10 lg:grid-cols-3 xl:gap-6 ">
          {
           contactData.map((item)=>(
 <div key={item.id} className="border border-border flex-colo p-10 bg-dry rounded-lg text-center ">
