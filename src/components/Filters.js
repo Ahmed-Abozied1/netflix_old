@@ -6,11 +6,11 @@ import { Fragment } from "react";
 import { FaAngleDown, FaCheck } from "react-icons/fa";
 const YearData = [
   { title: "Sorted Bt Year" },
-  { title: "1700:1800" },
-  { title: "1800:1900" },
-  { title: "1900:2000" },
-  { title: "2000:2010" },
-  { title: "2010:2030" },
+  { title: "1700 : 1800" },
+  { title: "1800 : 1900" },
+  { title: "1900 : 2000" },
+  { title: "2000 : 2010" },
+  { title: "2010 : 2030" },
 ];
 const TimesData = [
   { title: "Sorted By Hours" },
@@ -35,29 +35,29 @@ const Filters = () => {
   const Filter = [
     {
       value: category,
-      onchange: setCategory,
+    onChange: setCategory,
       items: CategoriesData,
     },
     {
       value: year,
-      onchange: setYear,
+    onChange: setYear,
       items: YearData,
     },
     {
       value: times,
-      onchange: setTimes,
+    onChange: setTimes,
       items: TimesData,
     },
     {
       value: rates,
-      onchange: setRates,
+      onChange: setRates,
       items: RatesData,
     },
   ];
   return (
     <div className="my-6 mx-6 bg-dry border text-dryGray border-gray-800 grid md:grid-cols-4 grid-cols-2 lg:gap-12  gap-2  rounded p-6  ">
       {Filter.map((item, index) => (
-        <Listbox key={index} value={item.value} onchange={item.onchange}>
+        <Listbox key={index} value={item.value} onChange={item.onChange}>
           <div className="relative">
             <Listbox.Button className="relative w-full  border border-gray-800 bg-main rounded-lg cursor-default  text-white py-4 pl-6 pr-10 text-left text-xs">
               <span className="block truncate">{item.value.title}</span>
@@ -84,11 +84,11 @@ const Filters = () => {
                     {({ selected }) => (
                       <>
                         <span
-                          className={`block truncate ${
+                          className={`block truncated ${
                             selected ? "font-semibold" : "font-normal"
                           }`}
                         >
-                          {iterm.title}{" "}
+                          {iterm.title}
                         </span>
 
                         {selected ? (
