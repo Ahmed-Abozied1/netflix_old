@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from '../layout/Layout'
 import Filters from '../components/Filters'
 import Movie from "../components/Movie";
 import {Movies} from "../Data/MovieData"
+import { CgSpinner } from 'react-icons/cg';
 const MoviesPage = () => {
+  const maxPage=8;
+  const[page,setPage]=useState();
+  const handleLoadingMore=()=>{
+    setPage(page+maxPage);
+  }
   return (
     <Layout>
     <div className='min-h-screen container mx-auto px-2 my-2'>
@@ -18,6 +24,12 @@ const MoviesPage = () => {
         {Movies.map((movie,index)=>(
 <Movie key={index} movie={movie}/>
         ))}
+      </div>
+      {/* loading More */}
+      <div className='w-full flex-colo md:my-20 myy-10'>
+        <button className='flex-row gap-3 text-white py-3 px-8 rounded font-semibold border-2 border-submain '>
+          Loading More... <CgSpinner className='animate-spin'/>
+        </button>
       </div>
     </div>
         </Layout>
