@@ -5,8 +5,8 @@ import Movie from "../components/Movie";
 import {Movies} from "../Data/MovieData"
 import { CgSpinner } from 'react-icons/cg';
 const MoviesPage = () => {
-  const maxPage=8;
-  const[page,setPage]=useState();
+  const maxPage=6;
+  const[page,setPage]=useState(maxPage);
   const handleLoadingMore=()=>{
     setPage(page+maxPage);
   }
@@ -21,13 +21,13 @@ const MoviesPage = () => {
       </p>
       <div className='grid sm:mt-10 mt-6 xl:grid-cols-4 2xl:grid-cols-5 lg:grid-cols-3 sm:grid-cols-2 gap-6  '>
 
-        {Movies.map((movie,index)=>(
+        {Movies.slice(0,page).map((movie,index)=>(
 <Movie key={index} movie={movie}/>
         ))}
       </div>
       {/* loading More */}
-      <div className='w-full flex-colo md:my-20 myy-10'>
-        <button className='flex-row gap-3 text-white py-3 px-8 rounded font-semibold border-2 border-submain '>
+      <div className='w-full flex-colo md:my-20 my-10'>
+        <button onClick={handleLoadingMore} className='flex-rows gap-3 text-white py-3 px-8 rounded font-semibold border-2 border-submain '>
           Loading More... <CgSpinner className='animate-spin'/>
         </button>
       </div>
