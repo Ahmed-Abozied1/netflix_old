@@ -1,6 +1,7 @@
 export const Movies = [
   {
-    name: "Army of The Dead ",
+    name: "Army of The Dead",
+
     desc: "Following a zombie outbreak in Las Vegas, a group of mercenaries take the ultimate gamble, venturing into the quarantine zone to pull off the greatest heist ever attempted",
     titleImage: "1.jpeg",
     image: "army-of-the-dead.png",
@@ -14,7 +15,8 @@ export const Movies = [
   },
 
   {
-    name: "Jungle Cruise ",
+    name: "Jungle Cruise",
+
     desc: "It tells the alternate history of the captain of a small riverboat who takes a scientist and her brother through a jungle in search of the Tree of Life while competing against a German expedition, and cursed conquistadors.",
     titleImage: "2.jpg",
     image: "Jungle Cruise.jpg",
@@ -27,7 +29,7 @@ export const Movies = [
     reviews: 13,
   },
   {
-    name: "Below her mouth ",
+    name: "Below her mouth",
     desc: "Below Her Mouth is a 2016 Canadian erotic romantic drama film directed by April Mullen and written by Stephanie Fabrizi. The film stars Natalie Krill as Jasmine and Erika Linder as Dallas, two women in Toronto who meet and begin a passionate love affair.",
     titleImage: "3.jpg",
     image: "Below her mouth.jpg",
@@ -40,7 +42,7 @@ export const Movies = [
     reviews: 21,
   },
   {
-    name: "Magic Mikes Last ",
+    name: "Magic Mikes Last",
     desc: "Plot. Former male stripper Mike Lane, who lost his furniture business during the COVID-19 pandemic, is now in his 40s, still in Miami and a bartender for a catering company. At Maxandra Max Mendoza's fundraising event, Mike is recognized by Kim, a lawyer for Max's foundation. ",
     titleImage: "4.jpg",
     image: "Jungle Cruise.jpg",
@@ -49,11 +51,11 @@ export const Movies = [
     year: "2023",
     time: "3hr",
     vedio: "",
-    rate: .7,
+    rate: 0.7,
     reviews: 19,
   },
   {
-    name: "Carnifex 2022 ",
+    name: "Carnifex 2022",
     desc: "Bailey (The Royals' Alexandra Park) an aspiring documentary maker joins conservationists Grace (Vampire Academy's Sisi Stringer) and Ben (Hacksaw Ridge's Harry Greenwood) as they travel deep into the Australian outback to track and record the animals left displaced and devastated by the fires.",
     titleImage: "1.jpeg",
     image: "Carnifex 2022.png",
@@ -66,7 +68,7 @@ export const Movies = [
     reviews: 19,
   },
   {
-    name: "A Man of Action 2022 ",
+    name: "A Man of Action 2022",
     desc: "In this drama inspired by the life of Lucio Urtubia, an anarchist targets one of the world's biggest banks with an ingenious counterfeiting operations.",
     titleImage: "2.jpg",
     image: "A Man of Action 2022.png",
@@ -79,10 +81,10 @@ export const Movies = [
     reviews: 29,
   },
   {
-    name: "Call Me Chihiro 2023 ",
+    name: "Call Me Chihiro 2023",
     desc: "Based on a manga, the movie follows the life of Chihiro, a former sex worker who is now working at a bento shop in a small seaside town. The story of the film meanders along with Chihiro, exploring the town's different residents and making connections. Call Me Chihiro is a gorgeous study in slice-of-life filmmaking. ",
     titleImage: "3.jpg",
-    image: "Call Me Chihiro 2023.png",
+    image: "CallMeChihiro2023.png",
     category: "Drama",
     langhage: "China",
     year: "2023",

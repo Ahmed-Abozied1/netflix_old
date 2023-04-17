@@ -107,13 +107,13 @@ const Footer = () => {
             </Link>
             <p className="leading-7 text-sm text-border mt-3  ">
               <span>
-                Lorem 196 Andrew Road ,Suit 200,
-                <br /> New York ,NY 10007
+               Egypt,
+                <br /> Cairo ,Mansoura
               </span>
               <br/>
-              <span>Tell:+255 754 455 234</span>
+              <span>Tell:+201094072297</span>
               <br/>
-              <span>Email: info@asd.com</span>
+              <span>Email: ahmed123@gmail.com</span>
             </p>
           </div>
         </div>
