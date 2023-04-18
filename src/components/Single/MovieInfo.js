@@ -20,7 +20,7 @@ const MovieInfo = ({ movie }) => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="col-span-2 mg:grid grid-col-5 gap-4 items-center">
+          <div className="col-span-2 md:grid grid-cols-5 gap-4 items-center">
             <div className="col-span-3 flex flex-col gap-10">
               {/* title */}
               <h1 className="xl:text-4xl capitalize font-sans text-2xl font-bold">
@@ -64,7 +64,7 @@ const MovieInfo = ({ movie }) => {
             <div className="col-span-2 md:mt-0 mt-2 flex justify-end ">
                 <button className="md:w-1/4 w-full relative flex-colo bg-submain hover:bg-transparent border-2 border-submain transitions md:h-64 h-20 rounded font-medium">
                     <div className="flex-rows gap-6 text-md uppercase tracking-widest absolute md:rotate-90">
-                        Download <FiLogIn classNamew-6 h-5/>
+                        Download <FiLogIn className="w-6 h-6"/>
                     </div>
                 </button>
             </div>
