@@ -133,3 +133,46 @@ export const Movies = [
     reviews: 29,
   },
 ];
+
+export const UserData = [
+  {
+    name: "dwayne-johnson",
+    image: "dwayne-johnson.jpg",
+  },
+  {
+    name: "harry",
+    image: "harry.jpg",
+  },
+  {
+    name: "jonn",
+    image: "jonn.jpg",
+  },
+  {
+    name: "Jonny",
+    image: "Jonny.jpg",
+  },
+  {
+    name: "Leonard",
+    image: "Leonard.jpg",
+  },
+  {
+    name: "michal",
+    image: "michal.jpg",
+  },
+  {
+    name: "statham",
+    image: "statham.jpg",
+  },
+  {
+    name: "Tom",
+    image: "tom.jpg",
+  },
+  {
+    name: "Tony",
+    image: "Tony.jpg",
+  },
+  {
+    name: "vin dazil",
+    image: "vin dazil.jpg",
+  },
+];
