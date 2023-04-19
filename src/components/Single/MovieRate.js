@@ -81,6 +81,11 @@ const MovieRate = ({ movie }) => {
                     {user?.message}
                   </p>
                 </div>
+
+                {/* rates */}
+                <div className="col-span-3 flex-rows border-l gap-1 border-border text-xs text-star ">
+                  <Rating value={user?.rate} />
+                </div>
               </div>
             ))}
           </div>
