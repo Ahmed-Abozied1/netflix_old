@@ -1,33 +1,34 @@
 import React from "react";
 import Titles from "../Titles";
 import { BsBookmarkStar } from "react-icons/bs";
-import { Select } from "../UsedInputs";
+import { Message, Select } from "../UsedInputs";
 import { useState } from "react";
-import Rating from "../../components/Rating"
+import Rating from "../../components/Rating";
+import { UserData } from "../../Data/MovieData";
 const MovieRate = ({ movie }) => {
   const Ratings = [
     {
-      title: " Poor",
+      title: "1 - Poor",
       value: 0,
     },
     {
-      title: " Fair",
+      title: "2 - Fair",
       value: 1,
     },
     {
-      title: " Good",
+      title: "3 - Good",
       value: 2,
     },
     {
-      title: " Very Good",
+      title: "4 - Very Good",
       value: 3,
     },
     {
-      title: " Excellent",
+      title: "5 - Excellent",
       value: 4,
     },
     {
-      title: " Master",
+      title: "6 - Master",
       value: 5,
     },
   ];
@@ -49,14 +50,40 @@ const MovieRate = ({ movie }) => {
               lable="Select Rating"
               options={Ratings}
               onChange={(e) => setRating(e.target.value)}
-              
             />
             <div className="flex mt-4 text-lg gap-2 text-star">
-                <Rating value={rating}/>
+              {/* <Rating value={rating}/> */}
             </div>
           </div>
           {/* message */}
-          
+          <Message lable="message" placeholder="Make it short ..." />
+          {/* submit */}
+          <button className=" text-white py-3 w-full  bg-submain hover:bg-transparent border-2 border-submain flex-colo rounded ">
+            Submit
+          </button>
+        </div>
+        {/* Reviews */}
+        <div className="col-span-3 flex flex-col gap-6 mx-6 md:mt-6">
+          <h3 className="text-xl text-text font-semibold ">Reviews (34)</h3>
+          <div className="w-full flex flex-col bg-main gap-6 rounded-lg md:p-12 p-6  h-header overflow-y-scroll">
+            {UserData.slice(0, 8).map((user, i) => (
+              <div className="md:grid flex  flex-col  w-full grid-cols-12 gap-6 bg-dry p-4 border border-gray-800 rounded-lg">
+                <div className="col-span-2 bg-main hidden md:block ">
+                  <img
+                    src={` /images/UserImage/${user.image}`}
+                    alt={user?.name}
+                    className="h-20 w-full object-cover"
+                  />
+                </div>
+                <div className="col-span-7 flex flex-col gap-2 ">
+                  <h2>{user?.name}</h2>
+                  <p className="text-xs leading-6 font-medium text-text">
+                    {user?.message}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

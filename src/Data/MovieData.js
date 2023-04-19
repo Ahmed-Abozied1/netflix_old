@@ -138,41 +138,61 @@ export const UserData = [
   {
     name: "dwayne-johnson",
     image: "dwayne-johnson.jpg",
+    message:
+      "a high-octane thrill ride that kickstarted one of the most successful franchises in cinema history. The film's adrenaline-fueled car chases and intense action",
   },
   {
     name: "harry",
     image: "harry.jpg",
+    message:
+      "but it still manages to deliver plenty of high-speed thrills and excitement. The chemistry between leads Paul Walker and Tyrese Gibson is undeniable, and the film's Miami setting adds a vibrant, colorful backdrop to the action.",
   },
   {
     name: "jonn",
     image: "jonn.jpg",
+    message:
+      " takes the franchise in a new direction, with a fresh cast and a setting that's worlds away from the previous films.",
   },
   {
     name: "Jonny",
     image: "Jonny.jpg",
+    message:
+      "the result is a high-octane thrill ride that's sure to please fans. ",
   },
   {
     name: "Leonard",
     image: "Leonard.jpg",
+    message:
+      "takes the franchise to new heights, with an all-star cast and some of the most jaw-dropping action sequences in the series. ",
   },
   {
     name: "michal",
     image: "michal.jpg",
+    message:
+      "sees the return of fan-favorite characters from previous films, and the result is a fun, action-packed adventure that's sure to please fans.",
   },
   {
     name: "statham",
     image: "statham.jpg",
+    message:
+      "is a fitting tribute to the late Paul Walker, who tragically passed away during filming. ",
   },
   {
     name: "Tom",
     image: "tom.jpg",
+    message:
+      "may not reach the heights of some of the franchise's previous entries.",
   },
   {
     name: "Tony",
     image: "Tony.jpg",
+    message:
+      "The film's cast is as charismatic as ever, and the film's globetrotting plot adds an extra layer of excitement.",
   },
   {
     name: "vin dazil",
     image: "vin dazil.jpg",
+    message:
+      "The film's buddy-comedy dynamic is a welcome change of pace for the franchise, and the action sequences are as jaw-dropping as ever.",
   },
 ];
